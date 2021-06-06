@@ -485,7 +485,7 @@ before the optional timeout, as shown in the example below.
 Receive Loops
 ~~~~~~~~~~~~~
 
-Message handler passed to ``receive`` are temporary object at runtime.
+Message handler passed to ``receive`` are temporary objects at runtime.
 Hence, calling ``receive`` inside a loop creates an unnecessary amount
 of short-lived objects. CAF provides predefined receive loops to allow for
 more efficient code.
